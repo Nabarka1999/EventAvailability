@@ -1,0 +1,56 @@
+h1{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  padding: 5px 25px;
+}
+
+.event{
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-top: 100px;
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.event h3{
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 30px;
+}
+
+.event h4{
+  display: none;
+  background-color: pink;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.event p{
+  font-size: 20px;
+  color: white;
+}
+
+.event button{
+  background-color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px 80px;
+}
+
+.event button:hover{
+  background-color: rgb(255, 163, 163);
+  cursor: pointer;
+}
+
+#allEvents{
+  display: flex;
+  flex-wrap: wrap;
+}
+
